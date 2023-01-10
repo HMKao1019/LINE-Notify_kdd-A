@@ -4,7 +4,7 @@
 "token":"[Access token of LINE Notify]", 
 
 
-"//": "Which group to notify",
+"//": "Which group to notify, you need to get the group id",
 
 "sent_to": "[notify_group_id]", 
 
