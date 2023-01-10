@@ -3,6 +3,15 @@
 Created on Mon Jan  9 10:56:46 2023
 
 @author: hmkao
+
+程式說明: 
+
+1. 本程式以 LINE-Notify_kdd-A 機器人為例，申請一個 INE Notify 機器人，有相對應的"access token"可控制它；
+
+   邀請 Kdd-A 機器人 至 群組 Ex. group-A，取得該群組的 group id，應用 group id 作為 kdd-A 專門服務 group-A 的識別。
+
+2. 一支 LINE Notify 機器人只能服務一個群組。若要服務第二個群組 Ex group-B，需創建 kdd-B 機器人，並再重複步驟1。
+
 """
 
 # In[] Part I: Import the third-party modules
