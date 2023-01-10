@@ -24,7 +24,7 @@ import requests
 
 #-- Set execuation path on VM of GCP
 execuation_Path = os.getcwd()
-git_folderName = 'LINE-Notify_kdd-A' 
+git_folderName = '/LINE-Notify_kdd-A' 
  
 #-- Read KEYS
 with open (execuation_Path + git_folderName + '/keys.json', 'r') as js:
