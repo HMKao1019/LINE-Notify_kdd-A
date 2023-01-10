@@ -1,10 +1,10 @@
 {
-"//": "Access token of Line Notify",
+"//": "Access token of Line Notify, Ex: kdd-A",
 
 "token":"[Access token of LINE Notify]", 
 
 
-"//": "Which group to notify, you need to get the group id",
+"//": "Which group to notify, you need to get the group id. Ex. group-A",
 
 "sent_to": "[notify_group_id]", 
 
