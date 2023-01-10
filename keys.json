@@ -1,0 +1,25 @@
+{
+"//": "Access token of Line Notify",
+
+"token":"[Access token of LINE Notify]", 
+
+
+"//": "Which group to notify",
+
+"sent_to": "[notify_group_id]", 
+
+
+"//": "SQL connection settings on GCP",
+
+"host": "[IP of SQL]",
+"user": "[login name]",
+"passwd": "[login password]",
+
+
+"//": "DB & TABLES settings",
+
+"database": "[DB name]",
+"queueTable": "line_notify_queue",
+"logTable": "line_notify_log"
+}	
+
