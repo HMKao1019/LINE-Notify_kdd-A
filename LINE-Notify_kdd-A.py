@@ -227,12 +227,12 @@ for i in range(len(results)):
             insertTableRow(key["logTable"], sn, message_sn, sent_to_all_id, content, sent_ok, created_time, scheduled_time, notified_time, remark) 
      
             
-        #- All users are failed to notify.
+        #- All users are not notified.
         elif len(failed_send_to_list) == len(send_to_list):
             pass
         
         
-        #- Some users are notified and some are not.
+        #- Some users have been notified, others have not.
         else:
             
             # delete notified data from "line_notify_queue" based on "message_sn"
